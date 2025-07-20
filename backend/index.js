@@ -2,7 +2,7 @@ const con = require('./db');
 con();
 const express = require('express')
 const app = express()
-const port = 3000
+const port = 5000
 
 app.use(express.json())
 //these are the available routes:-
